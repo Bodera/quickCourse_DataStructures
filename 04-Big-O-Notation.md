@@ -66,12 +66,12 @@ Keep in mind that when we refer to Big O Notation we're referring to the worst c
 
 ## Examples
 
-Now we're gonna explore a few basic examples and see how to apply some techniques to figure out the complexity of some algorithm.
+Now we're going to explore a few basic examples and see how to apply some techniques to figure out the complexity of some algorithm.
 
-Does your algorithm perform elementary operations like arithmetics, needs to declare some auxiliary variables maybe accessing an external source, or works with a fixed-size array length along the entire process? Must probably that the complexity notation for this algorithm is **O(1)** because the resources expended during runtime doesn't have much to do with the input size lenght but really with the implementation of the algorithm.
+Does your algorithm perform elementary operations like arithmetics, needs to declare some auxiliary variables maybe accessing an external source, or works with a fixed-size array length along the entire process? Must probably that the complexity notation for this algorithm is **O(1)** because the resources expended during runtime doesn't have much to do with the input size length but really with the implementation of the algorithm.
 
-Does your algorithm traverses through an array and at every element it just updates some reference, maybe to populate a new collection or even mutate the original array? Must probably that the complexity notation for this algorithm is **O(N)**, the resources expended scalates in a direct proportion as the input size increases.
+Does your algorithm traverses through an array and at every element it just updates some reference, maybe to populate a new collection or even mutate the original array? Must probably that the complexity notation for this algorithm is **O(N)**, the resources expended scales in a direct proportion as the input size increases.
 
-Does you algorithm takes two or more inputs, like two different arrays and loop through them? In that scenario the complexity notation for this function could be denoted as **O(M + N)** meaning a linear complexity reflects the total size of both inputs. And if this algorithm traverses the first array for every element inside the second array you may denote the complexity as **O(M^2 + N)**.
+Does your algorithm take two or more inputs, like two different arrays and loop through them? In that scenario the complexity notation for this function could be denoted as **O(M + N)** meaning a linear complexity reflects the total size of both inputs. And if this algorithm traverses the first array for every element inside the second array you may denote the complexity as **O(M^2 + N)**.
 
 See how complexity notations can be combined to denote exactly how an algorithm behaves.
