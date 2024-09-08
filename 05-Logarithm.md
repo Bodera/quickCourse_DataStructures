@@ -54,3 +54,17 @@ You can think of algorithms that have a time complexity of `log(N)` either by as
 ## Conclusion
 
 That was the logarithm and how it relates to computer science and coding interviews. Hope that you're now no longer afraid of the concept of `log(N)`.
+
+## Resume
+
+Logarithm is a mathematical concept that's widely used in Computer Science and that's defined by the following equation:
+
+<p><b>log<sub>b</sub>(x) = y</b> if and only if <b>b<sup>y</sup> = x</b></p>
+
+In the context of coding interviews, the logarithm is used to describe the complexity analysis of algorithms, and its usage always implies a logarithm of base __2__. In other words, the logarithm used in the context of coding interviews is defined by the following equation:
+
+<p><b>log(n) = y</b> if and only if <b>2<sup>y</sup> = n</b></p>
+
+In plain English, if an algorithm has a logarithmic time complexity (__O(log(n))__, where __n__ is the size of the input), then whenever the algorithm's input doubles in size (i.e., whenever __n__ doubles), the number of operations needed to complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would see its number of operations double if its input size doubled.
+
+As an example, a linear-time-complexity algorithm with an input of size 1,000 might take roughly 1,000 operations to complete, whereas a logarithmic-time-complexity algorithm with the same input would take roughly 10 operations to complete, since <b>2<sup>10</sup> ~= 1,000</b>.
