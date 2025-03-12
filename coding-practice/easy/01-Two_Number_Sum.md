@@ -53,9 +53,8 @@ class Program {
 
 This Java method finds two numbers in an array that add up to a given target sum. It uses a `HashMap` to store numbers as keys and their indices as values. For each number in the array, it checks if its complement (target sum minus the number) is already in the map. If it is, it returns an array containing the current number and its complement. If no such pair is found, it returns an empty array.
 
-## Good Space & Time Complexity
+#### Good Space & Time Complexity
 O(n log(n)) time | O(1) space - where `n` is the length of the input array
-
 
 ### Solution 2
 
@@ -86,7 +85,7 @@ class Program {
 
 This Java method, `twoNumberSum()`, finds two numbers in a given array that add up to a specified target sum. It uses a two-pointer technique, sorting the array first and then moving the pointers from both ends towards the center until it finds a pair that sums up to the target. If no such pair is found, it returns an empty array.
 
-## Bad Space & Time Complexity
+#### Bad Space & Time Complexity
 O(n^2) time | O(1) space - where `n` is the length of the input array
 
 ### Solution 3

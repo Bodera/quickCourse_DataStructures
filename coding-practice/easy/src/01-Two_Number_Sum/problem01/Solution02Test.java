@@ -1,15 +1,16 @@
+package problem01;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class Solution01Test {
+public class Solution02Test {
 
     @Test
     public void TestCase1() {
         int[] input = new int[] {3, 5, -4, 8, 11, 1, -1, 6};
         int targetSum = 10;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, -1));
@@ -21,7 +22,7 @@ public class Solution01Test {
         int[] input = new int[] {4, 6};
         int targetSum = 10;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 4));
@@ -33,7 +34,7 @@ public class Solution01Test {
         int[] input = new int[] {4, 6, 1};
         int targetSum = 5;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 4));
@@ -45,7 +46,7 @@ public class Solution01Test {
         int[] input = new int[] {4, 6, 1, -3};
         int targetSum = 3;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 6));
@@ -57,7 +58,7 @@ public class Solution01Test {
         int[] input = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int targetSum = 17;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 8));
@@ -69,7 +70,7 @@ public class Solution01Test {
         int[] input = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 15};
         int targetSum = 18;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 3));
@@ -81,7 +82,7 @@ public class Solution01Test {
         int[] input = new int[] {-7, -5, -3, -1, 0, 1, 3, 5, 7};
         int targetSum = -5;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, 0));
@@ -93,7 +94,7 @@ public class Solution01Test {
         int[] input = new int[] {-21, 301, 12, 4, 65, 56, 210, 356, 9, -47};
         int targetSum = 163;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 2);
         assertTrue(contains(output, -47));
@@ -105,7 +106,7 @@ public class Solution01Test {
         int[] input = new int[] {-21, 301, 12, 4, 65, 56, 210, 356, 9, -47};
         int targetSum = 164;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 0);
     }
@@ -115,7 +116,7 @@ public class Solution01Test {
         int[] input = new int[] {3, 5, -4, 8, 11, 1, -1, 6};
         int targetSum = 15;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 0);
     }
@@ -125,7 +126,7 @@ public class Solution01Test {
         int[] input = new int[] {14};
         int targetSum = 15;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 0);
     }
@@ -135,7 +136,7 @@ public class Solution01Test {
         int[] input = new int[] {15};
         int targetSum = 15;
 
-        int[] output = Solution01.twoNumberSum(input, targetSum);
+        int[] output = Solution02.twoNumberSum(input, targetSum);
 
         assertTrue(output.length == 0);
     }
